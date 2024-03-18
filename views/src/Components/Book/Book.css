@@ -1,0 +1,55 @@
+.form {
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+}
+label {
+  height: 2rem;
+  margin-left: 2rem;
+  font-size: large;
+  font-weight: bold;
+}
+input {
+  height: 2rem;
+  margin-left: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  color: grey;
+}
+input::placeholder {
+  color: grey;
+  font-size: small;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+button {
+  margin-left: 2rem;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+}
+button:hover {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+.search {
+  display: flex;
+}
+
+h4 {
+  color: blue;
+}
+.book {
+  display: flex;
+  gap: 1rem;
+}
+.h3 {
+  color: palevioletred;
+}
+.author {
+  display: flex;
+  gap: 3rem;
+}
